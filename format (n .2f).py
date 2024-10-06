@@ -1,0 +1,9 @@
+n=97686986.5374675875870987663537876544
+o=format(n,".7f")
+print(o)
+l=format(n,".2e")
+print(l)
+m=format(n,",")
+print(m)
+k=format(n,".3%")
+print(k)

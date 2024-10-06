@@ -2,6 +2,7 @@ import turtle
 turtle.speed(10)
 turtle.penup()
 turtle.left(90)
+turtle.hideturtle()
 turtle.forward(200)
 turtle.right(90)
 turtle.forward(200)
@@ -72,6 +73,16 @@ turtle.left(90)
 turtle.forward(40)
 turtle.right(90)
 turtle.forward(90)
+turtle.penup()
+turtle.goto(200,200)
+turtle.setheading(180)
+turtle.forward(30)
+turtle.setheading(90)
+turtle.forward(15)
+turtle.pendown()
+turtle.setheading(0)
+turtle.circle(10)
+
 
 
 import turtle
