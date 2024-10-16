@@ -1,0 +1,7 @@
+  #list types
+letters=["a","b","c"] #store strings in qoutes
+matrix=[[0, 1], [2, 3]]#store [3,9] in list
+zeros=[0]*5#store 5 zeros or multiple repetitive things
+numbers=list(range(20))
+chars=list("hello ")
+print(chars)#to count the numbers of objects in the list
