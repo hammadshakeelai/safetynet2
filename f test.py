@@ -1,11 +1,15 @@
-y=1
-n=10-3
+m=int(input("enter number of iterations :  "))
+y=0
+n=m-2 #ten is the amount of printed number of fibonacci sequnce
 x=1
-print(y)
-print(x)
-z=x+y
-print(z)
-for i in range(n):
-  y=x+z
+
+if n <=1:
   print(y)
-  x,z=z,y   #x,z purane integers =  z,y naye integers
+
+if n<=2:
+  print(x)
+
+for i in range(n):
+  z=x+y
+  print(y)
+  x,y=z,x  #x,z purane integers =  z,y naye integers
