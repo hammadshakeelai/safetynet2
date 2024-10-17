@@ -1,7 +1,4 @@
-  #list types
-letters=["a","b","c"] #store strings in qoutes
-matrix=[[0, 1], [2, 3]]#store [3,9] in list
-zeros=[0]*5#store 5 zeros or multiple repetitive things
-numbers=list(range(20))
-chars=list("hello ")
-print(chars)#to count the numbers of objects in the list
+letters=["a","b","c","d","e"]
+letters[0]="A"
+print(letters[0:2])
+print(letters[::2])
