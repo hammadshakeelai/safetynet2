@@ -1,4 +1,0 @@
-letters=["a","b","c","d","e"]
-letters[0]="A"
-print(letters[0:2])
-print(letters[::2])
