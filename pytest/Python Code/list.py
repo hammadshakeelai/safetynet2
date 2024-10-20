@@ -10,3 +10,4 @@ squares=[x**2 for x in range(1, 6)]#formula with varing value- Output: [1, 4, 9,
 #for fruit in fruits:#prints every thing in fruits if ""print(fruit)"" is written----------USE LIST METHOD
 #if "apple" in fruits:#--------------------------------------------------------------------LOOKS FOR A STRING IN LIST
 #print(len(fruits))  #  len(list_name) #to find number things inside list------------------COUNTS LIST_LENGTH
+#if i not in my_list:#-------------------------
