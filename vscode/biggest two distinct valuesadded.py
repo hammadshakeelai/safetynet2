@@ -1,12 +1,12 @@
-my_list = [20, 7, 2, 4, 18, 88, 20, 7, 2, 4, 18, 18, 20, 7, 2, 4, 18, 18, 20]
-k=0
-for j in range(2):#repeats two times
-    for i in range(1000,-1,-1): # Maximum integer values is 1000
-        if i in my_list:
-            print(i)
-            k=k+i
-            break
-    while i in my_list:
-        my_list.remove(i)
-print(k)
-print(my_list)
+my_list = [20, 20]
+max_value=-1000
+second_max_value=-1000
+for i in my_list:#checks all numbers
+    if max_value<i :#agar i ka bara hai tuo
+        second_max_value=max_value#chote max mai bara max ka dal do
+        max_value=i#or bara max mai i ka  dal do
+    elif second_max_value<i and i!=max_value:#agar i ka chote max se bara hai magar bara max se nai tuo chote max mai i ka dal do
+        second_max_value=i
+
+print(max_value+second_max_value)
+        
