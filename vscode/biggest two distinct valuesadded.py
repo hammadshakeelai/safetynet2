@@ -1,12 +1,15 @@
-my_list = [20, 20]
-max_value=-1000
-second_max_value=-1000
-for i in my_list:#checks all numbers
-    if max_value<i :#agar i ka bara hai tuo
-        second_max_value=max_value#chote max mai bara max ka dal do
-        max_value=i#or bara max mai i ka  dal do
-    elif second_max_value<i and i!=max_value:#agar i ka chote max se bara hai magar bara max se nai tuo chote max mai i ka dal do
-        second_max_value=i
+my_list =[20, 20, 7, 2, 4, 7, 18, 3, 2, 4, 7, 18, 3]
+max_value =my_list[0]
+second_max_value = float('-inf')
+for i in my_list:
+    if i > max_value:
+        second_max_value = max_value
+        max_value = i
+    elif second_max_value < i and i!=max_value or max_value == second_max_value and i != second_max_value:
+        second_max_value = i
 
-print(max_value+second_max_value)
-        
+if float("-inf") == second_max_value:
+    print(0)
+else:
+    print(max_value, second_max_value)
+    print(max_value + second_max_value)
