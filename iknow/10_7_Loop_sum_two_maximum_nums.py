@@ -1,5 +1,5 @@
 # Sum the two distince Maximum value in the List
-my_list = [1, 7, 2, 4, 7, 18, 3]
+#my_list = [1, 7, 2, 4, 7, 18, 3]
 my_list = [20, 7, 2, 4, 7, 18, 3]
 #my_list = [3, 3, 3, 3]
 

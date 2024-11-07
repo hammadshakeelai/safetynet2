@@ -3,7 +3,7 @@ def asktosquare():
     print("x sqaured is", sqaure(x))
     
 def sqaure(n):
-    return pow(n, 2)
+    return pow(n, .5)
 asktosquare()
 
 n=9

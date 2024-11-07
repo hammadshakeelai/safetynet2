@@ -27,3 +27,7 @@ def hh(to):
     print("hello,",to)
 name=input("enterv nmae ?? ")
 hh(name)
+
+import random
+r=random.randint()
+print(r)

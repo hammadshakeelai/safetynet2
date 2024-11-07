@@ -1,5 +1,5 @@
 def find_last_person(n):
-    my_list = [i for i in range(1, n+1)]
+    my_list = [2,3,4,5,6,8,7,9,8]
     print(my_list, "- Sword with", my_list[0])
 
     flag = True

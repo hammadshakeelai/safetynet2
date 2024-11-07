@@ -5,4 +5,4 @@ def main():
 def hello(to="World."):
     print("Hello!,",to)
     
-main()
+hello()
