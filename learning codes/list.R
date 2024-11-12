@@ -11,3 +11,6 @@ for fruit in fruits:#prints every thing in fruits if ""print(fruit)"" is written
 if "apple" in fruits:#--------------------------------------------------------------------LOOKS FOR A STRING IN LIST
 print(len(fruits))  #  len(list_name) #to find number things inside list------------------COUNTS LIST_LENGTH
 if i not in my_list:#---------------------------------------------------------------------CHECKS IN LIST THAT IT IS NOT INIT
+unpaired ^= number
+ if A.count(number) == 1:
+

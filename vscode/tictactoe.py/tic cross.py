@@ -1,0 +1,13 @@
+print("       *       *      ","\n","   ",one,"   *   ",two,"   *   ",three,"   ","\n","       *       *      ","\n","* * * * * * * * * * * *","\n","       *       *      ","\n","   ",four,"   *   ",five,"   *   ",six,"   ","\n","       *       *      ","\n","* * * * * * * * * * * *","\n","       *       *      ","\n","   ",seven,"   *   ",eight,"   *   ",nine,"   ","\n","       *       *      ",sep="")
+
+print("       *       *      ")
+print("   ",one,"   *   ",two,"   *   ",three,"   ",sep="")
+print("       *       *      ")
+print("* * * * * * * * * * * *")
+print("       *       *      ")
+print("   ",four,"   *   ",five,"   *   ",six,"   ",sep="")
+print("       *       *      ")
+print("* * * * * * * * * * * *")
+print("       *       *      ")
+print("   ",seven,"   *   ",eight,"   *   ",nine,"   ",sep="")
+print("       *       *      ")
