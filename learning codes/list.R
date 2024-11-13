@@ -13,4 +13,14 @@ print(len(fruits))  #  len(list_name) #to find number things inside list--------
 if i not in my_list:#---------------------------------------------------------------------CHECKS IN LIST THAT IT IS NOT INIT
 unpaired ^= number
  if A.count(number) == 1:
-
+print(format(dj,".2f"))
+import random
+s=random.randint(1,999)
+def hello(to="World."):
+name=name.strip()#to remove spaces from string
+name=name.capitalize()#to capitalize first alphabet
+name=name.title()#to capatilize first letter of every word
+first, last =name.split(" ")
+pow(n, .5)
+print(f"{z:,}")#to add , after 3 digits of number
+print(f"{z:.2f}")#goes upto two decimal points 

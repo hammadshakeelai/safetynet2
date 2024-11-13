@@ -52,7 +52,7 @@ def main():
             win="no"
     if win!="yes":
         print("DRAW")
-    print(list)
+    
 while True:       
     main()
     
