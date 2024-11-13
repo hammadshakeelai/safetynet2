@@ -4,6 +4,7 @@ def main():
     one = two = three = four = five = six = seven = eight = nine = " "
     
     print("1 | 2 | 3","---------","4 | 5 | 6","---------","7 | 8 | 9",sep="\n")
+    list=[]
     for i  in range(9):
         turn=0
         if i%2==0:
@@ -15,6 +16,10 @@ def main():
         while turn<1 or turn>9:
             turn=float(input(f"user{j}: enter which cell do you want to mark ; "))
             turn=int(turn)
+            if turn in list:
+                turn=0
+            else:
+                list.append(turn)
         if turn==1:
             one=symbol
         elif turn==2:
@@ -47,5 +52,7 @@ def main():
             win="no"
     if win!="yes":
         print("DRAW")
+    print(list)
 while True:       
     main()
+    
