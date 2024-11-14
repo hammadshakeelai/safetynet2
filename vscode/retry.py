@@ -1,7 +1,4 @@
-h=int(input("n : "))
-list=[]
-for i in range(1,h+1):
-    list.append(i)
+list=[7,5,57857,8,86,7568,7,865,46,8767,4,684464,444,4,8444448448,84,8,8]
 flag=True
 while len(list)>1:
     t=[]
