@@ -16,11 +16,12 @@ unpaired ^= number
 print(format(dj,".2f"))
 import random
 s=random.randint(1,999)
-def hello(to="World."):
+def hello(to="World."):#to hard code hallo to "to" if nothing is given
 name=name.strip()#to remove spaces from string
 name=name.capitalize()#to capitalize first alphabet
 name=name.title()#to capatilize first letter of every word
-first, last =name.split(" ")
-pow(n, .5)
+first, last =name.split(" ")#splits one variable in two 
+pow(n, .5)#n power 5
 print(f"{z:,}")#to add , after 3 digits of number
 print(f"{z:.2f}")#goes upto two decimal points 
+c[::-1]#to print it oppsitely
