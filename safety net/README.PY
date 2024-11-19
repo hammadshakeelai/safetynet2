@@ -1,2 +1,1 @@
-README=2
-print(README)
+print("README")

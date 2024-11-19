@@ -1,6 +1,6 @@
 
 def change_value(par_val):
-    par_val = 10
+    par_val += 8
     print("Value inside method: ", par_val)
     print("Address inside method: ", id(par_val))
     
