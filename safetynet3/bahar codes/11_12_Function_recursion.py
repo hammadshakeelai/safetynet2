@@ -7,7 +7,7 @@ def fibonacci(n, memo={}):
         memo[n] = fibonacci(n - 1, memo) + fibonacci(n - 2, memo)
         return memo[n]
 
-print(fibonacci(46))
+print(fibonacci(3))
 
 # Recursion is a form of self-referential programming. 
 # Recursion can also be referred as 

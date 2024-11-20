@@ -258,3 +258,14 @@ def missing_num(num_list):
             return i
 # i=[0,9,8,7,6,5,4,1,2,3]
 # print(missing_num(i))
+def recursion_factorial(n):
+    if n==0 or n==1:
+        return 1
+    else:
+        return n * recursion_factorial(n-1)
+# print(recursion_factorial(5))
+def fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n - 1): a, b = b, a + b
+    return a #if n > 0 else 0
+# print(fibonacci(10))

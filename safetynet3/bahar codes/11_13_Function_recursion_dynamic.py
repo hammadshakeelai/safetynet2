@@ -2,12 +2,12 @@ def fibonacci(n, memo={}):
     if n in memo:
         return memo[n]
     if n <= 2:
-        return n-1
+        return n-1 #if n > 0 else 0
     else:
         memo[n] = fibonacci(n - 1, memo) + fibonacci(n - 2, memo)
-        return memo[n]
+        return memo[n] 
 
-print(fibonacci(10)) 
+print(fibonacci(4)) 
 
 # Major issue with the recursion is the space complexity
 # The space complexity can be reduced. 
