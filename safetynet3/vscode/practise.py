@@ -10,13 +10,12 @@ def n_fizzbuzz(n):
             print(i)
 #n_fizzbuzz(9)
 def palindrome(c):
-    
     b=c[::-1]
     if b==c:
-        print(b,"is a palindrome.")
+        return "is palindrome"
     else:
-        print("no")
-#palindrome("fxgdhgy999999ynbhvyghdgxf")
+        return "not palindrome"
+#print(palindrome("fxgdhgy999999ynbhvyghdgxf"))
 def calculator(num1,num2,operator):
     if operator=="/":
         num1/=num2
@@ -26,24 +25,25 @@ def calculator(num1,num2,operator):
         num1+=num2
     elif operator=="-": 
         num1-=num2
-    print(num1)
-#calculator(6,9,"+")
+    return num1
+#print(calculator(6,9,"+"))
 def primefinder(p):
     flag=True
     if p ==0:
-        print("not prime")
+        ret= "not prime"
     elif p==1:
-        print("not prime")
+        ret= "not prime"
     else:
         for i in range(p-1,1,-1):
             if p%i==0:
-                print("not prime")
                 flag=False
+                ret= "not prime"
                 break
                 
         if flag:
-            print("prime")
-#primefinder(17)
+            ret="prime"
+    return ret
+#print(primefinder(17))
 def unique_string(s):
     flag=True
     list=[]
@@ -98,7 +98,7 @@ def answer_checker(n):
     p*=2
     p+=1
     return int(p)
-#answer_checker(9)
+#print(answer_checker(9))
 def tic_cross():
     def print_octothrope(one,two,three,four,five,six,seven,eight,nine):
         print("       *       *      ","\n","   ",one,"   *   ",two,"   *   ",three,"   ","\n","       *       *      ","\n","* * * * * * * * * * * *","\n","       *       *      ","\n","   ",four,"   *   ",five,"   *   ",six,"   ","\n","       *       *      ","\n","* * * * * * * * * * * *","\n","       *       *      ","\n","   ",seven,"   *   ",eight,"   *   ",nine,"   ","\n","       *       *      ",sep="")
@@ -162,8 +162,8 @@ def tic_cross():
 def time():
     from datetime import datetime
     n=datetime.now()
-    print(n)
-#time()
+    return n
+#print(time())
 def auto_tic_cross():
     def print_octothrope(one,two,three,four,five,six,seven,eight,nine):
         print("       *       *      ","\n","   ",one,"   *   ",two,"   *   ",three,"   ","\n","       *       *      ","\n","* * * * * * * * * * * *","\n","       *       *      ","\n","   ",four,"   *   ",five,"   *   ",six,"   ","\n","       *       *      ","\n","* * * * * * * * * * * *","\n","       *       *      ","\n","   ",seven,"   *   ",eight,"   *   ",nine,"   ","\n","       *       *      ",sep="")
@@ -238,8 +238,8 @@ def josephus_problem(n_number_of_people):
                 tem_list.append(i)
             flag=not flag
         list=tem_list
-    print(list[0])
-#josephus_problem(66)
+    return list[0]
+#print(josephus_problem(66))
 def num_to_binary(num):
     binary=''
     list=[]
@@ -250,4 +250,11 @@ def num_to_binary(num):
     for i in list:
         binary=binary+str(i)
     return binary
-print(num_to_binary(95))
+#print(num_to_binary(95))
+def missing_num(num_list):
+    size=len(num_list)
+    for i in range(size+1):
+        if i not in num_list:
+            return i
+# i=[0,9,8,7,6,5,4,1,2,3]
+# print(missing_num(i))

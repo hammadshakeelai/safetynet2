@@ -1,5 +1,4 @@
 ## Redeclaring Global Variable
-
 my_global_variable = 90
 def add():
     global my_global_variable # comment to see the effect
