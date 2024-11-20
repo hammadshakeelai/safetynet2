@@ -240,3 +240,14 @@ def josephus_problem(n_number_of_people):
         list=tem_list
     print(list[0])
 #josephus_problem(66)
+def num_to_binary(num):
+    binary=''
+    list=[]
+    while num>0:
+        digit=num%2
+        num=num//2
+        list.insert(0,digit)
+    for i in list:
+        binary=binary+str(i)
+    return binary
+print(num_to_binary(95))
