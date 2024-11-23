@@ -225,7 +225,7 @@ def auto_tic_cross():
             print("DRAW")
     while True:       
         main()
-#auto_tic_cross()
+# auto_tic_cross()
 def josephus_problem(n_number_of_people):
     list=[]
     for i in range(1,n_number_of_people+1):
