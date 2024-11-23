@@ -17,7 +17,7 @@ def lists():
     # first_list = ['Apple', 'banana']
     # second_list = ['apple', 'Banana']
 
-    # # first_list = [1, 2, 3]
+    # first_list = [1, 2, 3]
     # second_list = [1, 3, 4]
 
     # first_list = ['A', 'B', 'C']
@@ -32,12 +32,13 @@ def lists():
     # first_list = [1.0, 2.0, 3.0]
     # second_list = [1, 2, 3]
 
-    first_list = ['a', 2, [3, 'b']]
-    second_list = ['a', 2, [3, 'B']]
+    # first_list = ['a', 2, [3, 'b']]
+    # second_list = ['a', 2, [3, 'B']]
 
-    # first_list = [' ', '']
-    # second_list = ['', ' ']
+    first_list = [1,2,3]
+    second_list = [1,2,3,4]
     return first_list,second_list
+
 first_list,second_list=lists()
 def N(first_list,second_list):
     firstN=len(first_list)
@@ -95,3 +96,4 @@ def doublelooper_index(first_list,second_list):
     else:
         return "100% perfect match"
 print(doublelooper_index(first_list,second_list))
+#compares list if no repeatition is done
