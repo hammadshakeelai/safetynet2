@@ -38,7 +38,6 @@ def lists():
     first_list = [1,2,3]
     second_list = [1,2,3,4]
     return first_list,second_list
-
 first_list,second_list=lists()
 def N(first_list,second_list):
     firstN=len(first_list)
