@@ -26,3 +26,11 @@ print(f"{z:,}")#to add , after 3 digits of number
 print(f"{z:.2f}")#goes upto two decimal points 
 c[::-1]#to print it oppsitely
 math .floor .ceil .pi .radians .sin .cos
+
+{and continue finally is raise
+as def for lambda return
+assert del from None True
+async elif global nonlocal try
+await else if not while
+break except import or with
+class False in pass yield}

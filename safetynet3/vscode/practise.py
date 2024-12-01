@@ -250,7 +250,7 @@ def num_to_binary(num):
     for i in list:
         binary=binary+str(i)
     return binary
-#print(num_to_binary(95))
+# print(num_to_binary(95))
 def missing_num(num_list):
     size=len(num_list)
     for i in range(size+1):
@@ -268,4 +268,4 @@ def fibonacci(n):
     a, b = 0, 1
     for _ in range(n - 1): a, b = b, a + b
     return a #if n > 0 else 0
-# print(fibonacci(10))
+# print(fibonacci(12))
