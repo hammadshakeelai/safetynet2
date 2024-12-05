@@ -39,7 +39,6 @@ def primefinder(p):
                 flag=False
                 ret= "not prime"
                 break
-                
         if flag:
             ret="prime"
     return ret
@@ -54,7 +53,6 @@ def unique_string(s):
             print("not unique")
             flag=False
             break
-            
     if flag:
         print("unique")
 #unique_string("74_dth!")
