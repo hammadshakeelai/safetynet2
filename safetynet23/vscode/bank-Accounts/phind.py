@@ -22,14 +22,14 @@ def operations(op, balance1, account_number, list_balances):
     elif op == 1:
         deposit=-1
         while deposit<0:
-            deposit = int(input("Enter deposit amount: "))
+            deposit = int(input("Enter deposit amount: $"))
         balance1 += deposit
         list_balances[account_number] = balance1
         print("Deposit successful")
     elif op == 2:
         withdraw=balance1+1
         while withdraw>balance1 or withdraw<0:
-            withdraw = int(input("Enter withdrawal amount: "))
+            withdraw = int(input("Enter withdrawal amount: $"))
             if withdraw>balance1:
                 print("Insuficient Balance")
 
@@ -49,7 +49,11 @@ def main(list_names, list_balances):
             else:
                 print("Account not found")
         elif i == 1:
-            name = input("Enter Name: ")
+            name='none'
+            while name in list_names:
+                name = input("Enter Name: ")
+                if name in list_names:
+                    print("name already taken, please select another name.")
             balance = int(input("Enter balance: "))
             list_balances, list_names = make_acc(name, balance, list_names, list_balances)
         elif i == 2:

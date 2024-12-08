@@ -22,6 +22,7 @@ name=name.capitalize()#to capitalize first alphabet
 name=name.title()#to capatilize first letter of every word
 first, last =name.split(" ")#splits one variable in two 
 pow(n, .5)#n power 5
+from  cubemap import cubeprintx
 print(f"{z:,}")#to add , after 3 digits of number
 print(f"{z:.2f}")#goes upto two decimal points 
 c[::-1]#to print it oppsitely

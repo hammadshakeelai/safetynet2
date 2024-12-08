@@ -1,4 +1,3 @@
-# Define cube faces as lists
 yellow = ['y'] * 9
 white = ['w'] * 9
 green = ['g'] * 9
@@ -25,16 +24,15 @@ def printcubex():
     print("         ", orange[6], orange[7], orange[8])
 
 def W_anticlock():
-    # Rotate the white face
     white[0], white[2], white[6], white[8] = white[6], white[0], white[8], white[2]
     white[1], white[3], white[5], white[7] = white[3], white[7], white[1], white[5]
 
-    # Adjust surrounding faces
     orange_temp = orange[0:3]
     orange[0:3] = green[2:9:3][::-1]
     green[2:9:3] = yellow[6:9][::-1]
     yellow[6:9] = blue[0:9:3]
     blue[0:9:3] = orange_temp
+    
 def w_clock():
     W_anticlock()
     W_anticlock()
