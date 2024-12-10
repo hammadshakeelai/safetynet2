@@ -1,11 +1,4 @@
-print("""      gcnbhmbvj
-      nhgcvhj\\n
-\"""htrghctgvhb\"""
-      'cjtrgfhgnf gb'
-      "xgfvb"
-      vyfhgvbng
-      yyjtjhfngbn 
-      tyjtjhdsxci67uliuolk"""+'''xxxxh fjdvkmc
-      ghbfgvc
-      gbfvdcu
-      jnyhbgvf''')
+h='defrgthyuj'
+g=h.split("g")
+print(h)
+print(g)
