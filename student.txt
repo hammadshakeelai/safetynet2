@@ -1,6 +1,0 @@
-ds,1122,bob,david,3.43
-ai,911,shah nawaz khan,shah fahad khan,3.16
-cs,111244622,doremon,factory,4.00
-ai,091,jahangir van,pmdc,2.00
-se,111532532,bhutto,pakistan,5.99
-ds,0,dd,*****,0.00pppppppppppppppppppppppppppppppppppppppppppppppppppppp

@@ -1,0 +1,19 @@
+1, cs50, artificial general intelligence 2, 99.00, B
+1, ict0t, internatinal technology skills under bloomtaxonomy 2, 49.00, E
+1, pf60lab, data science and ML 2, 49.00, B
+1, cs60, artificial general intelligence, 99.00, C
+1, ict1t, internatinal technology skills under bloomtaxonomy, 49.00, A
+1, pf50lab, data science and ML, 49.00, A
+2, cs60, artificial general intelligence, 99.00, D
+2, ict1t, internatinal technology skills under bloomtaxonomy, 49.00, D
+2, pf50lab, data science and ML, 49.00, A
+3, cs50, artificial general intelligence 2, 99.00, E
+3, pf60lab, data science and ML 2, 49.00, F
+3, ict1t, internatinal technology skills under bloomtaxonomy, 49.00, D
+4, cs50, artificial general intelligence 2, 99.00, D
+4, pf50lab, data science and ML, 49.00, A
+5, cs50, artificial general intelligence 2, 99.00, C
+5, ict0t, internatinal technology skills under bloomtaxonomy 2, 49.00, E
+5, pf60lab, data science and ML 2, 49.00, B
+5, cs60, artificial general intelligence, 99.00, C
+6, cs60, artificial general intelligence, 99.00, C

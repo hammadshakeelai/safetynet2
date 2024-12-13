@@ -40,3 +40,12 @@ import matplotlib.pyplot as plt
 sizes = [25, 30, 35, 10]
 plt.barchart(sizes)
 plt.show()
+import os
+	os.remove("coffee.txt")
+	os.rename("temp.txt", "coffee.txt")
+random.random()
+random.randint(1, 5)
+random.randrange(1, 10, 2)
+random.shuffle([12, 34, 56, 60])
+random.choice([1, 2, 3, 4, 5])
+random.sample("abcdefghijklmnopqrstuvwxyz", 15)
