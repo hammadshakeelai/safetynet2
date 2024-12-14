@@ -75,15 +75,18 @@ def update_student_record(reg_no: int, cgpa: float):
     finally:
         file_input.close()
 def delete_student_record(reg_no: int):
-    delete_courses(reg_no)
     try:
+        course_list=["cs50","ict0t","pf60lab","cs60","ict1t","pf50lab"]
+        for course in course_list:
+            delete_studentcourse_record(reg_no,course)
         deleted=False
         file_input=open("student.txt",'r+')
         pointerp=file_input.tell()
         line=file_input.readline()
         while line:
             
-            if int(line.strip().split(", ")[0])==reg_no: 
+            if int(line.strip().split(", ")[0])==reg_no:
+                 
                 deleted = True
                 break
             pointerp=file_input.tell()
