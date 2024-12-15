@@ -1,0 +1,10 @@
+finance Calculator
+Expense Splitter
+Word Frequency
+Notepad
+Website Status
+Currency Converter
+Password Generator
+Text Analyser
+Morse Code Converter
+Chat Bot
