@@ -22,13 +22,13 @@ print(f"{z:.2f}")#goes upto two decimal points
 c[::-1]#to print it oppsitely
 math .floor .ceil .pi .radians .sin .cos
 
-{[and continue finally]' is'' raise'
-'as '[def] [for] 'lambda '[return]
-'assert '[del] [from]' None '[True]
+['and continue finally'] is ,raise
+['as'] '[def] [for] 'lambda ['return']
+assert '[del] [from]' None '[True]
 'async '[elif global]' nonlocal '[try]
 'await' [else if not while]
-[break] [except import or] ['with']
-'class' [False] [in] 'pass'' yield'}
+[break] [except import or] [with]
+[class] [False] [in]' pass, yield
 
 import matplotlib.pyplot as plt
 sizes = [25, 30, 35, 10]
@@ -44,3 +44,4 @@ random.shuffle([12, 34, 56, 60])
 random.choice([1, 2, 3, 4, 5])
 random.sample("abcdefghijklmnopqrstuvwxyz", 15)
 combined_list=[*list1,*list2,*list3]
+def get_time() -> str:

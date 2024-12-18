@@ -203,4 +203,5 @@ def delete_studentcourse_record(registration_number:int,Course_Code:str):
         print("an error occured ",e)
     finally:
         file_input.close()  
-        
+# add_student_record(999,'bahar','ali',4.0)     
+display_all_student_records()
