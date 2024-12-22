@@ -2,11 +2,11 @@ def total_price(quantity, price):
     return quantity * price
 def final_price(discounted_price):
     return round((discounted_price + tax_onit(discounted_price)), 2)
-def tax_onit(discounted_price: float):
+def tax_onit(discounted_price):
     TAX_RATE = 8.5
     return round((TAX_RATE * discounted_price / 100), 2)
 
-def discounted_price(tot_price: float):
+def discounted_price(tot_price):
     if tot_price > 500:
         discount = 20
     elif tot_price  >200:

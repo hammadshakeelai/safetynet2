@@ -45,3 +45,19 @@ random.choice([1, 2, 3, 4, 5])
 random.sample("abcdefghijklmnopqrstuvwxyz", 15)
 combined_list=[*list1,*list2,*list3]
 def get_time() -> str:
+
+from itertools import compress
+DAYS=['monday','tuesday','wednesday']
+MASK=[1,0,1]
+print(list(compress(DAYS,MASK)))
+:=
+big_number=10_000_000_000_000_000
+456_378.234_567_890_987_65
+print(f'{big_number:_}')#only for ints
+from typing import self
+{import numpy
+a=numpy.array([[1,2],[3,4]])
+b=numpy.array([[5,6],[7,8]])
+print(a@b)}
+value=10
+print(-~value)
