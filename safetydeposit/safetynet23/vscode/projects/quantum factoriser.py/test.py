@@ -6,7 +6,7 @@ my_list_ofN=[ 15, 21, 33, 35, 55, 77]
 for N in my_list_ofN:
     print(f'number to get factorised: {N}')
     #N=P*Q
-    G=8
+    G=8 #G should share no factors with N
 
     power=1
 
@@ -16,7 +16,7 @@ for N in my_list_ofN:
             break
         power+=1
     # print(power)#-----------------------
-
+#if power is odd go back to first method 
     #((G**power/2)+1)((G**power/2)-1)== mN
     # ( P *f1) * ( Q *f2) == mN
     my_list.append((G**(power/2))+1)

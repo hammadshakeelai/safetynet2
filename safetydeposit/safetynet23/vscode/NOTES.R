@@ -61,3 +61,8 @@ b=numpy.array([[5,6],[7,8]])
 print(a@b)}
 value=10
 print(-~value)
+from datetime import datetime
+print(10>>1)
+print(20<<2)
+type annotation
+chainmap
