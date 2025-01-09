@@ -156,7 +156,7 @@ def tic_cross():
         
     while True:       
         main()
-#tic_cross()
+tic_cross()
 def time():
     from datetime import datetime
     n=datetime.now()

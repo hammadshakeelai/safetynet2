@@ -4,3 +4,5 @@
 4, yy, $$$$$, 4.00
 5, Tony Stark, Iron Man, 9.00
 6, Sam, AX, 2.00
+7, i, o, 9.0
+8, u, uu, 0.0

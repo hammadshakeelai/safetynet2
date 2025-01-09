@@ -70,3 +70,4 @@ type annotation
 chainmap
 
 from timeit import timeit
+print(memo.get(5))#plus error handling

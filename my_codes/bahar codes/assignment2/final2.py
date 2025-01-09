@@ -12,7 +12,7 @@ def add_student_record(registration_no:int,name:str,fathername:str,cgpa:float):
 def display_all_student_records():
     try:
         file_input=open("student.txt",'r')
-        records=file_input.readlines().strip()
+        records=file_input.readlines()
         print(records)
     except FileNotFoundError:
         print("file not found")
@@ -143,6 +143,7 @@ def search_student_course(registration_number:int,Course_Code:str):
         for line in lines:
             if line.strip().split(", ")[0]==str(registration_number) and line.strip().split(", ")[1]==Course_Code:
                 print(line.strip())
+                break
     except ValueError:
         print("invalid inputs")
     except FileNotFoundError:
@@ -203,5 +204,69 @@ def delete_studentcourse_record(registration_number:int,Course_Code:str):
         print("an error occured ",e)
     finally:
         file_input.close()  
-# add_student_record(999,'bahar','ali',4.0)     
-display_all_student_records()
+def main():
+    print("\n1. Add student record")
+    print("2. Display all student records")
+    print("3. Search student record by registration number")
+    print("4. Update student record by registration number")
+    print("5. Delete student record by registration number")
+    print("6. Add course record for a student")
+    print("7. Display all course records for a student")
+    print("8. Search course record for a student by course code")
+    print("9. Modify course record for a student")
+    print("10. Delete course record for a student by course code")
+    print("11. Exit")
+    choice=int(input("Enter your choice: "))
+    if choice==1:
+        try:
+            registration_no=int(input("Enter registration number: "))
+            name=input("Enter name: ")
+            fathername=input("Enter father name: ")
+            cgpa=float(input("Enter cgpa: "))
+            add_student_record(registration_no,name,fathername,cgpa)
+        except FloatingPointError as e:
+            print
+        except Exception as e:
+            print('no input given')
+        
+    elif choice==2:
+        display_all_student_records()
+    elif choice==3:
+        registration_number=int(input("Enter registration number: "))
+        search_student_record(registration_number)
+    elif choice==4:
+        reg_no=int(input("Enter registration number: "))
+        cgpa=float(input("Enter new cgpa: "))
+        update_student_record(reg_no,cgpa)
+    elif choice==5:
+        reg_no=int(input("Enter registration number: "))
+        delete_student_record(reg_no)
+    elif choice==6:
+        registration_number=int(input("Enter registration number: "))
+        course_code=input("Enter course code: ")
+        course_name=input("Enter course name: ")
+        percentage=float(input("Enter course percentage: "))
+        grade=input("Enter course grade: ")
+        add_student_course(registration_number,course_code,course_name,percentage,grade)
+    elif choice==7:
+        registration_number=int(input("Enter registration number: "))
+        display_student_courses(registration_number)
+    elif choice==8:
+        registration_number=int(input("Enter registration number: "))
+        course_code=input("Enter course code: ")
+        search_student_course(registration_number,course_code)
+    elif choice==9:
+        reg_no=int(input("Enter registration number: "))
+        course_code=input("Enter course code: ")
+        percentage=float(input("Enter new course percentage: "))
+        grade=input("Enter new course grade: ")
+        modify_studentcourse_record(reg_no,course_code,percentage,grade)
+    elif choice==10:
+        reg_no=int(input("Enter registration number: "))
+        course_code=input("Enter course code: ")
+        delete_studentcourse_record(reg_no,course_code)
+    elif choice==11:
+        print("Exiting...")
+        return
+if __name__=="__main__":
+    main()
