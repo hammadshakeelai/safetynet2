@@ -5,7 +5,7 @@ def combination(n,r):#formula?
         return n
     else: 
         return combination(n-1,r-1) + combination(n-1,r)
-print(combination(5,2))
+print(combination(5,))
 # combination (n!)/(r!(n-r)!)#freedom of pickability
 # permutation (n!)/((n-r)!)#freedom of pickability x possiblity of arrangements 
 

@@ -6,3 +6,4 @@
 6, Sam, AX, 2.00
 7, i, o, 9.0
 8, u, uu, 0.0
+0, deleted
