@@ -1,4 +1,4 @@
-def n_fizzbuzz(n):
+ def n_fizzbuzz(n):
     for i in range(1,n+1):
         if i%3==0:
             print("fizz")
@@ -161,7 +161,7 @@ def time():
     from datetime import datetime
     n=datetime.now()
     return n
-#print(time())
+print(time())
 def auto_tic_cross():
     def print_octothrope(one,two,three,four,five,six,seven,eight,nine):
         print("       *       *      ","\n","   ",one,"   *   ",two,"   *   ",three,"   ","\n","       *       *      ","\n","* * * * * * * * * * * *","\n","       *       *      ","\n","   ",four,"   *   ",five,"   *   ",six,"   ","\n","       *       *      ","\n","* * * * * * * * * * * *","\n","       *       *      ","\n","   ",seven,"   *   ",eight,"   *   ",nine,"   ","\n","       *       *      ",sep="")
@@ -223,7 +223,7 @@ def auto_tic_cross():
             print("DRAW")
     while True:       
         main()
-auto_tic_cross()
+# auto_tic_cross()
 def josephus_problem(n_number_of_people):
     list=[]
     for i in range(1,n_number_of_people+1):
